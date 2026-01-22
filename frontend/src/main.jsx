@@ -10,6 +10,8 @@ import {
 import Homepage from './screens/Homepage.jsx'
 import OrderScreen from './screens/OrderScreen.jsx'
 import TrackDeliveryScreen from './screens/TrackDeliveryScreen.jsx'
+import PricingScreen from './screens/PricingScreen.jsx'
+import SupportScreen from './screens/SupportScreen.jsx'
 
 import Login from './screens/Login.jsx'
 import Signup from './screens/Signup.jsx'
@@ -22,6 +24,8 @@ const router = createBrowserRouter([
 
     {path: 'order', element: <OrderScreen />},
     {path: 'track', element: <TrackDeliveryScreen />},
+    {path: 'pricing', element: <PricingScreen />},
+    {path: 'support', element: <SupportScreen />},
   ]},
 ])
 
